@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*Header*/
+header{
+    /*border: 1px solid black;*/
+    height: 60px;
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+.navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar ul li{
+    margin-left: 15px;
+}
+
+.navbar ul li a{
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+/*Content*/
+.content-section{
+    /*border: 1px solid black;*/
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper{
+   /* border: 1px solid red;*/
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 32%;
+}
+.logo-img{
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    
+}
+.search-box{
+    border:1px solid green;
+    width: 600px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+.search-box i{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.search-box input{
+    flex-grow: 1;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 18px;
+    border: none;
+}
+.search-btn{
+    margin-top: 20px;
+    padding-left: 15%;
+}
+.search-btn button{
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration-color: black;
+}
+
+.language{
+    margin-top: 20px;
+    padding-left: 20%;
+}
+.language p a{
+    color: blue;
+}
+/*Footer*/
+footer{
+    height: 100px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+}
+.upper-footer-content{
+    height: 50%;
+}
+
+.upper-footer-content p{
+    height: 34px;
+    border: 1px solid gray;
+    
+}
+.lower-footer-content{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.lower-footer-content ul li a{
+    font-size: 14px;
+    color: grey;
+}
+.lower-left-footer{
+    display: flex;
+}
+.lower-left-footer li{
+    margin-right: 15px;
+}
+.lower-right-footer{
+    display: flex;
+}
+.lower-right-footer li{
+    margin-left: 15px;
+}
